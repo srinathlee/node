@@ -1,0 +1,26 @@
+###
+GET http://localhost:3000/players/
+
+###
+
+POST http://localhost:3000/players/
+Content-Type:application/json
+
+{
+    "playerName":"srkki",
+    "jerseyNumber":3075,
+    "role":"bokjwl"
+}
+###
+GET http://localhost:3000/players/2/
+
+###
+
+PUT http://localhost:3000/players/2/
+Content-Type:application/json
+
+{
+    "playerName":"srki",
+    "jerseyNumber":305,
+    "role":"bokwl"
+}
